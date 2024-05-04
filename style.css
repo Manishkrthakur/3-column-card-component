@@ -1,0 +1,81 @@
+
+   
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* h2   font-family: "Big Shoulders Display", cursive; 
+p     font-family: 'Lesend Deca ', sans-serif;*/
+    body{
+        background-color: hsl(0, 0%, 95%);
+        font-size: 15px;
+        font-family: 'Lexend Deca ', sans-serif;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+     
+    }
+    .container{
+        max-width: 960px;
+        margin: 0 auto;
+        
+    }
+    .wraping{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+       border-radius: 12px;
+       overflow: hidden;
+       margin: 2rem;
+       
+      
+    }
+    .box{
+        padding: 40px;
+    }
+    .box h2 {
+        font-family: "Big Shoulders Display", cursive;
+        text-transform: uppercase;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 30px;
+    }
+    .box p{
+        line-height: 1.6rem;
+        color:hsla(0, 0%, 100%, 0.75) ;
+    }
+    .box1{
+        background-color: hsl(31, 77%, 52%);
+    }
+    .box2{
+        background-color: hsl(184, 100%, 22%);
+    }
+    .box3{
+        background-color: hsl(179, 100%, 13%);
+    }
+    .box a{
+        background-color: hsl(0, 0%, 95%);
+        padding: 13px 25px;
+        border-radius: 22px;
+        display: inline-block;
+        text-decoration: none;
+        border: 2px solid hsl(0, 0%, 95%);
+        margin-top: 60px;
+        transition: all .4s ease-in-out;
+    }
+    .box a:hover{
+        background-color:  transparent;
+        color: hsl(0, 0%, 95%) ;
+    }
+    .box1 a{
+        color: hsl(31, 77%, 52%);
+    }
+    .box2 a{
+        color: hsl(184, 100%, 22%);
+    }
+    .box3 a{
+        color: hsl(179, 100%, 13%);
+    }
+  @media  (max-width:768px){
+    .wraping{
+        grid-template-columns: 1fr;
+    }
+  }
